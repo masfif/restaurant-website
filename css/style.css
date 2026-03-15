@@ -521,6 +521,30 @@ header{
 .top.show{
     bottom: 8%;
 }
+@media (min-width: 1024px){
+
+.main{
+    max-width: 650px;
+    left: 8%;
+    top: 55%;
+}
+
+.heading_1{
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+.heading{
+    font-size: 70px;
+    line-height: 1.2;
+}
+
+.btn{
+    padding: 16px 32px;
+    font-size: 18px;
+}
+
+}
 
 @media only screen and (max-width:1050px){
     .about_heading{
